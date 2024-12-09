@@ -1,0 +1,2 @@
+# Mutable and Immutable Borrowing in Rust
+This example demonstrates a potential issue with mutable and immutable borrows in Rust.  The core problem lies in attempting to print the value of x after it has been mutably borrowed and modified. While this may seem straightforward, it can lead to surprising results or even panics if not handled correctly.  The solution demonstrates a proper approach to manage mutable and immutable references to prevent data races or unexpected outputs.
